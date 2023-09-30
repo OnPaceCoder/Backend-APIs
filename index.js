@@ -19,6 +19,9 @@ app.get('/login', (req, res) => {
 app.get('/youtube', (req, res) => {
     res.send('<h2>Youtube </h2>');
 })
+app.get('/facebook', (req, res) => {
+    res.send("Welcome to facebook")
+})
 
 
 app.listen(process.env.PORT, () => {
