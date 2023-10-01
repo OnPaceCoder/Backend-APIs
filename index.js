@@ -22,7 +22,9 @@ app.get('/youtube', (req, res) => {
 app.get('/facebook', (req, res) => {
     res.send("Welcome to facebook")
 })
-
+app.get('/yahoo', (req, res) => {
+    res.send("Welcome to Yahoo")
+})
 
 app.listen(process.env.PORT, () => {
     console.log(`Example app listening on port ${process.env.PORT}`)
